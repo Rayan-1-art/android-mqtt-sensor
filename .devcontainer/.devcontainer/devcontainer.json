@@ -1,1 +1,10 @@
-
+{
+  "name": "Android SDK Dev",
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-ceintl.vscode-language-pack-en", "vscjava.vscode-java-pack", "redhat.vscode-yaml"]
+    }
+  },
+  "remoteUser": "root"
+}
